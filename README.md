@@ -41,7 +41,7 @@ Learn more at [docs.all-hands.dev](https://docs.all-hands.dev), or jump to the [
 The easiest way to run OpenHands is in Docker.
 See the [Running OpenHands](https://docs.all-hands.dev/modules/usage/installation) guide for
 system requirements and more information.
-
+For Linux 
 ```bash
 docker pull docker.all-hands.dev/all-hands-ai/runtime:0.30-nikolaik
 
@@ -71,7 +71,7 @@ docker run -it --rm --pull=always ^
 
 ```
 For Windows (PowerShell)
-'''
+```
 docker pull docker.all-hands.dev/all-hands-ai/runtime:0.30-nikolaik
 
 docker run -it --rm --pull=always `
@@ -83,7 +83,7 @@ docker run -it --rm --pull=always `
     --add-host host.docker.internal:host-gateway `
     --name openhands-app `
     docker.all-hands.dev/all-hands-ai/openhands:0.30
-'''
+```
 
 
 > [!WARNING]
