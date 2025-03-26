@@ -41,6 +41,7 @@ Learn more at [docs.all-hands.dev](https://docs.all-hands.dev), or jump to the [
 The easiest way to run OpenHands is in Docker.
 See the [Running OpenHands](https://docs.all-hands.dev/modules/usage/installation) guide for
 system requirements and more information.
+
 For Linux 
 ```bash
 docker pull docker.all-hands.dev/all-hands-ai/runtime:0.30-nikolaik
